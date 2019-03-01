@@ -16,7 +16,7 @@ class StallingCurrent:
         Debug.begin(debug_level=Debug.DEBUG)
         self.force_sensor = AnalogIn(board.A2)
         self.current_sensor = AnalogIn(board.A3)
-        self.switch = digitalio.DigitalInOut(board.D12)
+        self.switch = digitalio.DigitalInOut(board.D10)
         self.switch.direction = digitalio.Direction.INPUT
         self.switch.pull = digitalio.Pull.UP
         self.running = False
@@ -28,7 +28,7 @@ class StallingCurrent:
         self.start_time = millis()
 
         self.chrono = chronometer()
-        self.chrono_time = 10
+        self.chrono_time = 1
         self.chrono.set(self.chrono_time)
         self.chrono.start()
 
@@ -39,21 +39,21 @@ class StallingCurrent:
         if self.running and self.switch.value:
             self.end()
 
-        # if self.running:
-        if self.running and self.chrono.isDone():
+        # if self.running:      # Uncomment this for higher resolution
+        if self.running and self.chrono.isDone():       # Comment this out for higher resolution
             force_voltage = ((self.force_sensor.value - 250) * self.force_sensor.reference_voltage) / 65535
-            force_lbs = (force_voltage - 0.0500) * 500.0000 / (0.1000 * 33.0000)
+            force_lbs = (force_voltage - 0.0438) * 500.0000 / (0.1000 * 33.0000)
             self.force_times.append((millis() - self.start_time) / 1000.0000)
             self.force_data.append(force_lbs)
 
             current_voltage = ((self.current_sensor.value - 362) * self.current_sensor.reference_voltage) / 65535
-            current_amps = (current_voltage - 2.4855) * 5.6500
+            current_amps = (current_voltage - 2.4858) * 5.6500
             self.current_times.append((millis() - self.start_time) / 1000.0000)
             self.current_data.append(current_amps)
 
             # Debug.msg("{0} volts, {1} lbs".format(force_voltage, force_lbs), Debug.DATA, source="Force Sensor")
             # Debug.msg("{0} volts, {1} amps".format(current_voltage, current_amps), Debug.DATA, source="Current Sensor")
-            self.chrono.setAndGo(self.chrono_time)
+            self.chrono.setAndGo(self.chrono_time)      # Comment this out for higher resolution
 
     def initialize(self):
         if self.switch.value:

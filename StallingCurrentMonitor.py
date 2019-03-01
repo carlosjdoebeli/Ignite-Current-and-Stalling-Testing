@@ -42,10 +42,19 @@ def read_forces():
         while "End" not in line:
             f.write(line + "\n")
             line = str(ser.readline()).replace("b'", "").replace(r"\r\n'", "")
-            force_line = re.findall('-?\d+\.?\d*', line)
+            # force_line = re.findall('-?\d+\.?\d*', line)
+            force_line = line.split(", ")
             if len(force_line) >= 2:
-                force_times.append(float(force_line[0]))
-                force_data.append(float(force_line[1]))
+                if "e" not in line or True:
+                    force_times.append(float(force_line[0]))
+                    force_data.append(float(force_line[1]))
+                elif len(force_line) >= 3:
+                    force_times.append(float(force_line[0]))
+                    exponential_force = float(force_line[1]) * 10
+
+
+    max_force = max(force_data)
+    print("Maximum force is {0}".format(max_force))
 
 
 def read_currents():
@@ -59,11 +68,14 @@ def read_currents():
         while "End" not in line:
             f.write(line + "\n")
             line = str(ser.readline()).replace("b'", "").replace(r"\r\n'", "")
-            current_line = re.findall('-?\d+\.?\d*', line)
-            # current_line = line.split(", ")
+            # current_line = re.findall('-?\d+\.?\d*', line)
+            current_line = line.split(", ")
             if len(current_line) >= 2:
                 current_times.append(float(current_line[0]))
                 current_data.append(float(current_line[1]))
+
+    max_current = max(current_data)
+    print("Peak current is {0}".format(max_current))
 
 
 def plot():
