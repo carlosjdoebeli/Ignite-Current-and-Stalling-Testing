@@ -1,126 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efc8e9c4-a42a-4e91-a781-299d073152e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/desktop.ini" beforeDir="false" />
+    <list default="true" id="efc8e9c4-a42a-4e91-a781-299d073152e8" name="Default Changelist" comment="Added files for force and force vs. flow plotting">
+      <change afterPath="$PROJECT_DIR$/ForceFlowGraphing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ForceMonitor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StallingCurrentMonitor.py" beforeDir="false" afterPath="$PROJECT_DIR$/StallingCurrentMonitor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pni_libs/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/board-0.0.0.post0.dist-info/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cycler-0.10.0.dist-info/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/parser/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/tz/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/zoneinfo/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kiwisolver-1.0.1.dist-info/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/axes/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/backends/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/backends/qt_editor/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/backends/web_backend/css/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/backends/web_backend/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/backends/web_backend/jquery/css/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/backends/web_backend/jquery/css/themes/base/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/backends/web_backend/jquery/css/themes/base/images/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/backends/web_backend/jquery/css/themes/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/backends/web_backend/jquery/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy-1.16.1.dist-info/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/.libs/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/compat/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/compat/tests/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/core/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/core/include/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/core/include/numpy/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/core/lib/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/core/lib/npy-pkg-config/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/core/tests/data/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/core/tests/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/distutils/command/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/distutils/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/distutils/fcompiler/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/distutils/mingw/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/distutils/tests/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/doc/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/f2py/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/f2py/src/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/f2py/tests/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/f2py/tests/src/array_from_pyobj/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/f2py/tests/src/assumed_shape/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/f2py/tests/src/common/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/f2py/tests/src/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/f2py/tests/src/kind/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/f2py/tests/src/mixed/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/f2py/tests/src/parameter/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/f2py/tests/src/regression/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/f2py/tests/src/size/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/f2py/tests/src/string/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/fft/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/fft/tests/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/lib/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/lib/tests/data/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/lib/tests/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/linalg/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/linalg/tests/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/ma/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/ma/tests/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/matrixlib/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/matrixlib/tests/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/polynomial/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/polynomial/tests/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/random/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/random/tests/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/testing/_private/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/testing/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/testing/tests/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/tests/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas-0.24.1.dist-info/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/arrays/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/compat/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/compat/numpy/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/core/arrays/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/core/computation/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/core/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/core/dtypes/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/core/groupby/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/core/indexes/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/core/internals/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/core/reshape/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/core/sparse/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/core/tools/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/core/util/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/errors/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/api/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/computation/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/frame/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/generic/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/indexes/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/internals/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/io/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/io/formats/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/io/json/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/io/msgpack/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/io/parser/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/io/sas/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/reductions/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/reshape/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/scalar/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/scalar/interval/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/scalar/period/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/scalar/timedelta/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/scalar/timestamp/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/series/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/series/indexing/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/tools/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/util/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/_libs/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/_libs/tslibs/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/api/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/api/extensions/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/api/types/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/io/clipboard/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/io/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/io/formats/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/io/formats/templates/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/io/json/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/io/msgpack/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/io/sas/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/plotting/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/arithmetic/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/arrays/categorical/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/arrays/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/arrays/interval/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/arrays/sparse/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/dtypes/cast/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/dtypes/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/extension/arrow/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/extension/base/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/extension/decimal/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/extension/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/extension/json/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/extension/numpy_/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/groupby/aggregate/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/groupby/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/indexes/datetimes/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/indexes/interval/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/indexes/multi/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/indexes/period/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/indexes/timedeltas/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/indexing/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/indexing/interval/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/indexing/multiindex/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/plotting/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/resample/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/reshape/merge/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/sparse/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/sparse/frame/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/sparse/series/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/tseries/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/tseries/offsets/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/tslibs/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/util/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pandas/tseries/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/commands/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/models/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/operations/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/req/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/vcs/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/cachecontrol/caches/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/cachecontrol/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/certifi/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/cli/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/colorama/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/_backport/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/_trie/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/filters/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treeadapters/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treebuilders/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treewalkers/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/idna/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/lockfile/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/msgpack/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/packaging/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/pkg_resources/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/progress/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/pytoml/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/contrib/_securetransport/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/contrib/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/packages/backports/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/packages/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/packages/ssl_match_hostname/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/util/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/webencodings/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyparsing-2.3.1.dist-info/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/python_dateutil-2.8.0.dist-info/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2018.9.dist-info/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Africa/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Argentina/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Indiana/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Kentucky/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/North_Dakota/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Antarctica/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Arctic/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Atlantic/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Australia/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Brazil/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Canada/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Chile/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Indian/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Mexico/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/US/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.12.0.dist-info/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/desktop.ini" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -130,37 +130,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="54" column="118" selection-start-line="54" selection-start-column="118" selection-end-line="54" selection-end-column="118" />
+            <state relative-caret-position="136">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StallingCurrentMonitor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="90" column="13" lean-forward="true" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
-              <folding>
-                <element signature="e#142#160#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://G:/Team Drives/Engineering/2.0 Projects/Ignite Project/6.0 Testing/01_Test Reports/DOC-ENG-029 Ignite Stalling Behaviour &amp; Current Consumption/Python Code/main.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://G:/Team Drives/Engineering/2.0 Projects/Ignite Project/6.0 Testing/01_Test Reports/DOC-ENG-029 Ignite Stalling Behaviour &amp; Current Consumption/Python Code/StallingCurrentMonitor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+            <state relative-caret-position="535">
+              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
               <folding>
                 <element signature="e#142#160#0" expanded="true" />
               </folding>
@@ -185,6 +168,8 @@
       <find>reference</find>
       <find>createfiles</find>
       <find>close</find>
+      <find>fileName</find>
+      <find>filePath</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -195,8 +180,11 @@
       <list>
         <option value="$PROJECT_DIR$/pni_libs/debug.py" />
         <option value="G:/Team Drives/Engineering/2.0 Projects/Ignite Project/6.0 Testing/01_Test Reports/DOC-ENG-029 Ignite Stalling Behaviour &amp; Current Consumption/Python Code/StallingCurrentMonitor.py" />
-        <option value="$PROJECT_DIR$/StallingCurrentMonitor.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/../../Ignite Force vs Flow/ForceFlowGraphing.py" />
+        <option value="$PROJECT_DIR$/../../Ignite Force vs Flow/StallingCurrentMonitor.py" />
+        <option value="$PROJECT_DIR$/../../Ignite Force vs Flow/ForceMonitor.py" />
+        <option value="$PROJECT_DIR$/StallingCurrentMonitor.py" />
       </list>
     </option>
   </component>
@@ -222,7 +210,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Ignite-Current-and-Stalling-Testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ignite-Current-and-Stalling-Testing" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,6 +254,14 @@
       <option name="presentableId" value="Default" />
       <updated>1550250781791</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updated the files. &#10;Made sure that the code can read whichever serial ports are open, and is not dependent on any filepath.">
+      <created>1556657579495</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556657579495</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -299,6 +305,10 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated the files. &#10;Made sure that the code can read whichever serial ports are open, and is not dependent on any filepath." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the files. &#10;Made sure that the code can read whichever serial ports are open, and is not dependent on any filepath." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pni_libs/debug.py">
@@ -349,20 +359,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StallingCurrentMonitor.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="90" column="13" lean-forward="true" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
+        <state relative-caret-position="136">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Ignite Force vs Flow/ForceFlowGraphing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-757">
+          <caret line="81" column="12" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="12" />
+          <folding>
+            <element signature="e#428#446#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Ignite Force vs Flow/StallingCurrentMonitor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Ignite Force vs Flow/ForceMonitor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
           <folding>
             <element signature="e#142#160#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/StallingCurrentMonitor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="54" column="118" selection-start-line="54" selection-start-column="118" selection-end-line="54" selection-end-column="118" />
+        <state relative-caret-position="535">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+          <folding>
+            <element signature="e#142#160#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

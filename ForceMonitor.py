@@ -68,28 +68,6 @@ def read_forces():
     print("Maximum force is {0}".format(max_force))
 
 
-def read_currents():
-    t = time.localtime()
-    timestamp = time.strftime('%b-%d-%Y_%H.%M', t)
-    file_name = file_path + "/Data/" + test_desc + "_Current_" + timestamp + ".txt"
-    f = open(file_name, "w+")
-
-    line = str(ser.readline()).replace("b'", "").replace(r"\r\n'", "")
-    if "Current Data" in line:
-        while "End" not in line:
-            f.write(line + "\n")
-            line = str(ser.readline()).replace("b'", "").replace(r"\r\n'", "")
-            # current_line = re.findall('-?\d+\.?\d*', line)
-            current_line = line.split(", ")
-            if len(current_line) >= 2:
-                current_times.append(float(current_line[0]))
-                current_data.append(float(current_line[1]))
-
-    f.close()
-    max_current = max(current_data)
-    print("Peak current is {0}".format(max_current))
-
-
 def plot():
     t = time.localtime()
     timestamp = time.strftime('%b-%d-%Y_%H.%M', t)
@@ -102,14 +80,6 @@ def plot():
     ax1.tick_params('y', colors='b')
     ax1bottom, ax1top = ax1.get_ylim()
     ax1.set_ylim(min(ax1bottom, -0.5), max(ax1top, 5))
-
-    with sns.axes_style("whitegrid"):
-        ax2 = ax1.twinx()
-        ax2.plot(current_times, current_data, 'r', label="Current")
-        ax2.set_ylabel('Current (A)', color='r')
-        ax2.tick_params('y', colors='r')
-        ax2bottom, ax2top = ax2.get_ylim()
-        ax2.set_ylim(min(ax2bottom, -0.05), max(ax2top + 0.1, 0.25))
 
     file_name = file_path + "/Graphs/"  # Configure your path for graphs
 
@@ -136,6 +106,5 @@ while True:
         break
 
 read_forces()
-read_currents()
 plot()
 ser.close()
