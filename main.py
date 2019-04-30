@@ -28,7 +28,7 @@ class StallingCurrent:
         self.start_time = millis()
 
         self.chrono = chronometer()
-        self.chrono_time = 1
+        self.chrono_time = 1                        # THIS IS THE DELAY THAT CAN BE CHANGED AND CONFIGURED
         self.chrono.set(self.chrono_time)
         self.chrono.start()
 
@@ -39,8 +39,8 @@ class StallingCurrent:
         if self.running and self.switch.value:
             self.end()
 
-        # if self.running:      # Uncomment this for higher resolution
-        if self.running and self.chrono.isDone():       # Comment this out for higher resolution
+        # if self.running:      # FOR THE HIGHEST RESOLUTION WITH NO DELAYS, UNCOMMENT THIS LINE
+        if self.running and self.chrono.isDone():       # FOR NO DELAYS, COMMENT THIS LINE OUT
             force_voltage = ((self.force_sensor.value - 250) * self.force_sensor.reference_voltage) / 65535
             force_lbs = (force_voltage - 0.0438) * 500.0000 / (0.1000 * 33.0000)
             self.force_times.append((millis() - self.start_time) / 1000.0000)
@@ -51,8 +51,12 @@ class StallingCurrent:
             self.current_times.append((millis() - self.start_time) / 1000.0000)
             self.current_data.append(current_amps)
 
+            # Debug messages to determine the force voltage and force output, as well as current voltage and current output
+            # If the output force is not 0, then use these to determine how to recalibrate and change the above lines.
+
             # Debug.msg("{0} volts, {1} lbs".format(force_voltage, force_lbs), Debug.DATA, source="Force Sensor")
             # Debug.msg("{0} volts, {1} amps".format(current_voltage, current_amps), Debug.DATA, source="Current Sensor")
+
             self.chrono.setAndGo(self.chrono_time)      # Comment this out for higher resolution
 
     def initialize(self):
