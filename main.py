@@ -1,5 +1,12 @@
-# Created by: Carlos Doebeli cdoebeli@precision-nano.com
-# Created on: 15 Feb 2019
+"""
+Created on 19 February 2019
+@author: Carlos Doebeli
+
+Switch must initially be off before the test begins, or the code will not work.
+This is a code for an Adafruit Metro M4 Microcontroller. The circuit should be connected to a force load cell,
+a circuit sensor, and a switch.
+"""
+
 
 import board
 import busio

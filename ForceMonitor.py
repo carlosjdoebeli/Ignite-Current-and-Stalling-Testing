@@ -2,7 +2,9 @@
 Created on 19 February 2019
 @author: Carlos Doebeli
 
-Switch must initially be off before the test begins, or the code will not work.
+This is a script to collect the force data received from the Adafruit Metro M4. It takes the data, creates
+a force data file, and graphs the force data in a plot. This is identical to the StallingCurrentMonitor.py file
+with the current data taken out.
 """
 
 import numpy as np
