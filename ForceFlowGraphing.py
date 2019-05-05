@@ -21,6 +21,7 @@ import time
 force_files = []
 flow_files = []
 path = sys.path[0]   # Configure this path each time you use the code
+
 force_file_names = []
 flow_file_names = []
 force_labels = []
